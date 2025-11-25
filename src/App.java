@@ -35,7 +35,6 @@ public class App {
         System.out.println("With input \"Java is fun\" you should return 2. You got: " + minWordLength("Java is fun"));
         System.out.println("With input \"Java isn't scary\" you should return 4. You got: " + minWordLength("Java isn't scary"));
         System.out.println("With input \"I can do this\" you should return 1. You got: " + minWordLength("I can do this"));
-
         
     }
 
@@ -61,7 +60,6 @@ public class App {
             }
 
         }
-
         return shortest;
     }
 }
